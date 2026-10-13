@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daybook — a day planner for macOS</title>
+<meta name="description" content="Daybook is a native macOS day planner: an Inbox for tasks, a calendar to place them in, time slots, and gentle check-ins. It works with Google Calendar and macOS Calendar.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header class="hero">
+  <img src="icon.png" alt="Daybook app icon" width="96" height="96">
+  <div>
+    <h1>Daybook</h1>
+    <p class="lead">A day planner for macOS: from Inbox to calendar.</p>
+  </div>
+</header>
+
+<p>Daybook is a native Mac app for planning your day. You collect tasks in an Inbox, drag them onto a calendar next to your
+meetings, and work through the day with a timer in the menu bar. Everything runs on your Mac; there is no Daybook account
+and no Daybook server.</p>
+
+<h2>What it does</h2>
+<ul>
+  <li><strong>Inbox and lists.</strong> Capture tasks from anywhere (⌥Space), sort them into projects, and see Today and
+    This week at a glance.</li>
+  <li><strong>Calendar.</strong> Your events and your planned tasks on one grid. Drag a task to a time to plan it, resize it
+    to change its length.</li>
+  <li><strong>Time slots.</strong> Reserve a block of time for a group of tasks and work through them in order.</li>
+  <li><strong>Locks.</strong> Lock a task, a slot or lunch, and Daybook adds a “Busy” event to the calendar you choose, so
+    other people see that time as taken.</li>
+  <li><strong>Check-ins, morning plan and evening review.</strong> Short prompts that help you stay on track and close the
+    day.</li>
+  <li><strong>Menu bar.</strong> The current task and time left, always visible.</li>
+</ul>
+
+<h2>Google Calendar</h2>
+<p>You can connect one or more Google accounts. Daybook then asks Google for two permissions:</p>
+<div class="card">
+  <ul>
+    <li><strong>See the list of your calendars</strong> (<code>calendar.calendarlist.readonly</code>) — to show your
+      calendars with their names and colors and let you turn each one on or off.</li>
+    <li><strong>View and edit events</strong> (<code>calendar.events</code>) — to show your events next to your tasks, to
+      answer invitations from Daybook, to change the time or description of events you organize, and to add, move and
+      remove the “Busy” events for the time you lock.</li>
+  </ul>
+</div>
+<p>Daybook only changes something in your Google Calendar when you do something in Daybook (answer an invitation, edit
+an event, lock or unlock time). Your calendar data stays on your Mac and is never sent anywhere except back to Google.
+Details are in the <a href="privacy/">privacy policy</a>.</p>
+
+<h2>Requirements</h2>
+<p>macOS 14 Sonoma or later, Apple silicon or Intel. Daybook is currently shared privately and is not available in the
+App Store.</p>
+
+<footer>
+  <a href="privacy/">Privacy policy</a>
+  <span>© 2026 Vladislav Voronin</span>
+</footer>
+</main>
+</body>
+</html>
